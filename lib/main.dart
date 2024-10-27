@@ -41,15 +41,12 @@ class WebLayout extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   ListTile(
-                    leading: Icon(Icons.home, color: Colors.white),
                     title: Text('Home', style: TextStyle(color: Colors.white)),
                   ),
                   ListTile(
-                    leading: Icon(Icons.person, color: Colors.white),
                     title: Text('Profile', style: TextStyle(color: Colors.white)),
                   ),
                   ListTile(
-                    leading: Icon(Icons.settings, color: Colors.white),
                     title: Text('Settings', style: TextStyle(color: Colors.white)),
                   ),
                 ],
